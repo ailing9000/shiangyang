@@ -22,11 +22,10 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-100">
       <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-        {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <div className="relative h-10 w-24 overflow-hidden rounded">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.png"
               alt="向陽冬瓜肉飯"
               fill
               className="object-contain"
@@ -35,7 +34,6 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-5">
           {navLinks.map((link) => (
             <Link
@@ -53,7 +51,6 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* CTA + hamburger */}
         <div className="flex items-center gap-3">
           <Link href="/order" className="btn-primary hidden sm:inline-block">
             立即訂餐
@@ -70,7 +67,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-white border-t border-gray-100 px-4 py-3 space-y-1">
           {navLinks.map((link) => (

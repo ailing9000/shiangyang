@@ -15,7 +15,7 @@ export default function HeroBanner() {
           priority
         />
         {/* CTA overlay */}
-        <div className="absolute inset-0 flex items-end justify-center pb-6 px-4">
+        <div className="absolute inset-0 flex items-end justify-center pb-10 px-4">
           <div className="flex flex-wrap gap-3 justify-center">
             <Link href="/menu" className="btn-primary shadow-sm">
               查看今日菜單 →

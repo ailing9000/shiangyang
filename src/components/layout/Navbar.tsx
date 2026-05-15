@@ -23,7 +23,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white border-b border-gray-100">
       <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <div className="relative h-10 w-24 overflow-hidden rounded">
+          <div className="relative h-14 w-36 overflow-hidden rounded">
             <Image
               src="/images/logo.png"
               alt="向陽冬瓜肉飯"
